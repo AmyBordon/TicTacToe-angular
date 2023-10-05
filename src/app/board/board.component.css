@@ -8,3 +8,9 @@ app-square{
     border: 1px gray solid;
     height:200px;
 }
+
+.win{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}

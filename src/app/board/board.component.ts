@@ -48,7 +48,7 @@ export class BoardComponent implements OnInit{
       ];
       for(let i=0; i<lines.length; i++){
         const [a,b,c] = lines[i];
-        if(this.squares[a] && this.squares[a]===this.squares[b] && this.squares[a]===this.squares[c])
+        if(this.squares[a] && this.squares[a]===this.squares[b] && this.squares[a]===this.squares[c] && this.winner=='')
           return this.squares[a];
       }
       return '';
