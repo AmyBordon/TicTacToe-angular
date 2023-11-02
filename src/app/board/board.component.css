@@ -1,16 +1,29 @@
 main{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 125px 125px 125px;
     grid-gap: 0px;
 }
 
 app-square{
-    border: 1px gray solid;
-    height:200px;
+   
+    height:125px;
 }
 
 .win{
     color: red;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.newGame{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: green;
+    border-radius: 20px;
+}
+
+.xmas{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: green;
 }

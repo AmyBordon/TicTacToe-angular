@@ -1,4 +1,7 @@
 button
 { width: 100%; height: 100%; 
-    font-size: 5em !important;
+    font-size:4em !important;
+    background-color:rgb(218, 66, 96);
+    border-color: green;
+   border-radius: 20px;
 }

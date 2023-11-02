@@ -1,5 +1,6 @@
+<h1 class="xmas">Christmas TicTacToe</h1>
 <h1 *ngIf="winner==''">Current Player: {{player}}</h1>
-<button (click)="newGame()">Start new game.</button>
+<button class="newGame"(click)="newGame()">Start new game.</button>
 <h2 *ngIf="winner" class="win">Player {{winner}} won the game</h2>
 <main>
     <app-square
